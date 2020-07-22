@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+.container {
+    width: 1255px;
+    margin: 0 auto;
+}
+
+@import 'blocks/intro';
+@import 'blocks/nav';
+@import 'blocks/promo';
+@import 'blocks/btn';
+@import 'blocks/provide';
+@import 'blocks/products';

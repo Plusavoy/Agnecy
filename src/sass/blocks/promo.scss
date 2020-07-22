@@ -1,0 +1,29 @@
+.promo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__organization {
+        width: 50%;
+    }
+    &__title {
+        font-size: 60px;
+        font-weight: 700;
+        color: #000000;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000;
+        opacity: 0.7;
+        width: 80%;
+        margin: 0;
+        margin-top: 35px;
+    }
+    &__video {
+        box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
+    }
+}
+  

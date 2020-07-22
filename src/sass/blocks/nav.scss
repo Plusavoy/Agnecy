@@ -1,0 +1,37 @@
+.nav {
+    max-width: 1255px;
+    background: #313030;
+    height: 90px;
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        height: 100%;
+        :hover {
+            background: red;
+        }
+        li {
+            height: 100%;
+            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            :hover {
+                background: red;
+            }
+            a {
+                color: #e0e0e0;
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 700;
+                :hover {
+                    background: red;
+                }
+            }
+        }
+    }
+}
